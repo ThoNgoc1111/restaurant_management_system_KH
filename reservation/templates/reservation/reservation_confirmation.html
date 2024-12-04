@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center">Reservation Confirmation</h1>
+    <p class="text-center">Thank you for your reservation! Here are the details:</p>
+
+    <div class="card mb-4">
+        <div class="card-body">
+            <h5 class="card-title">Reservation Details</h5>
+            <p><strong>Date:</strong> {{ reservation.date }}</p>
+            <p><strong>Time:</strong> {{ reservation.time }}</p>
+            <p><strong>Number of Guests:</strong> {{ reservation.guests }}</p>
+            <p><strong>Special Requests:</strong> {{ reservation.special_requests }}</p>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="{% url 'home' %}" class="btn btn-primary btn-lg">Return to Home</a>
+    </div>
+</div>
+{% endblock %}

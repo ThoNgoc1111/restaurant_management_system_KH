@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% load custom_filters %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center">Order Confirmation</h1>
+    <p class="text-center">Please review your order and modify the quantities if needed. Then proceed to payment.</p>
+
+    <form method="post" action="{% url 'update_order' order.id %}">
+        {% csrf_token %}
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Order Details</h5>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in order.items.all %}
+                        <tr>
+                            <td>{{ item.menu_item.name }}</td>
+                            <td>
+                                <input type="number" name="quantities" value="{{ item.quantity }}" min="1" class="form-control">
+                                <input type="hidden" name="ordered_items" value="{{ item.id }}">
+                            </td>
+                            <td>${{ item.menu_item.price }}</td>
+                            <td>${{ item.quantity|multiply:item.menu_item.price }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3" class="text-right">Total Price:</th>
+                            <th>${{ order.total_price }}</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg">Update Order and Proceed to Payment</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

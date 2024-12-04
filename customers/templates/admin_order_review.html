@@ -1,0 +1,28 @@
+<!-- templates/admin_order_review.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Order Review</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Customer</th>
+            <th>Ordered Date</th>
+            <th>Total Price</th>
+            <th>Ordered</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for order in orders %}
+        <tr>
+            <td>{{ order.id }}</td>
+            <td>{{ order.user.username }}</td>
+            <td>{{ order.ordered_date }}</td>
+            <td>{{ order.total_price }}</td>
+            <td>{{ order.ordered }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

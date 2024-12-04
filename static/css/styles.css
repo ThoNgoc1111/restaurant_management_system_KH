@@ -1,0 +1,97 @@
+/* Custom styles for the restaurant management project */
+
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Navbar customization */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+
+/* Form customization */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-control {
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 100%;
+}
+
+/* Button customization */
+.btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Table customization */
+.table-custom {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.table-custom th,
+.table-custom td {
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.table-custom th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.table-custom tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* Footer customization */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

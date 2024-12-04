@@ -1,0 +1,101 @@
+Sample Menu Items
+Margherita Pizza
+
+Description: Classic pizza topped with fresh mozzarella, tomatoes, and basil.
+Price: 12.99
+Availability: True
+Spaghetti Carbonara
+
+Description: Traditional Italian pasta dish made with eggs, cheese, pancetta, and pepper.
+Price: 14.50
+Availability: True
+Caesar Salad
+
+Description: Crisp romaine lettuce, croutons, and parmesan cheese tossed in Caesar dressing.
+Price: 9.99
+Availability: True
+Grilled Chicken Sandwich
+
+Description: Juicy grilled chicken breast served on a toasted bun with lettuce and tomato.
+Price: 11.50
+Availability: True
+Beef Tacos
+
+Description: Soft corn tortillas filled with seasoned ground beef, lettuce, and cheese.
+Price: 10.99
+Availability: True
+Vegetable Stir-Fry
+
+Description: A mix of seasonal vegetables stir-fried in a savory soy sauce.
+Price: 8.99
+Availability: True
+Fish and Chips
+
+Description: Crispy battered fish served with golden fries and tartar sauce.
+Price: 15.99
+Availability: True
+Penne Arrabbiata
+
+Description: Penne pasta in a spicy tomato sauce with garlic and chili flakes.
+Price: 13.50
+Availability: True
+BBQ Ribs
+
+Description: Tender pork ribs glazed with a smoky BBQ sauce, served with coleslaw.
+Price: 18.99
+Availability: True
+Mushroom Risotto
+
+Description: Creamy Arborio rice cooked with mushrooms and parmesan cheese.
+Price: 14.99
+Availability: True
+Caprese Salad
+
+Description: Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.
+Price: 10.50
+Availability: True
+Chicken Alfredo
+
+Description: Fettuccine pasta tossed in a creamy Alfredo sauce with grilled chicken.
+Price: 15.50
+Availability: True
+Lamb Gyro
+
+Description: Sliced lamb served in pita bread with tzatziki sauce and vegetables.
+Price: 12.99
+Availability: True
+Pancakes with Maple Syrup
+
+Description: Fluffy pancakes served with butter and pure maple syrup.
+Price: 7.99
+Availability: True
+Chocolate Lava Cake
+
+Description: Warm chocolate cake with a gooey molten center, served with vanilla ice cream.
+Price: 6.99
+Availability: True
+Shrimp Scampi
+
+Description: Sautéed shrimp in garlic butter sauce served over linguine.
+Price: 17.99
+Availability: True
+Quinoa Salad
+
+Description: A healthy mix of quinoa, cucumbers, tomatoes, and feta cheese.
+Price: 9.50
+Availability: True
+Buffalo Wings
+
+Description: Spicy chicken wings served with celery sticks and blue cheese dressing.
+Price: 11.99
+Availability: True
+Cheeseburger
+
+Description: Grilled beef patty topped with cheese, lettuce, tomato, and pickles.
+Price: 10.99
+Availability: True
+Fruit Smoothie
+
+Description: A refreshing blend of seasonal fruits and yogurt.
+Price: 5.99
+Availability: True
